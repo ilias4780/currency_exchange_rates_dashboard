@@ -23,4 +23,12 @@ Please place your unique API key as a string value for the `api_key` key of the 
 ```
 streamlit run dashboard.py
 ```
+
+## Snapshots
+
+![Currency Symbols](snapshots/1.png)
+
+![Latest Exchange Rates](snapshots/2.png)
+
+![Exchange Rates Timeseries](snapshots/3.png)
  
