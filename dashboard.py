@@ -141,8 +141,7 @@ def run_dashboard():
     
     N.B. Fixer API allows to retrieve a timeseries of only one year. If you have selected a time period or dates that
     span longer than a year, then multiple requests will be made. Please be cautious around the number of requests
-    you have available via your API subscription. (e.g. if you have selected 3 target currencies and 5y span, then 15
-    requests will be made)
+    you have available via your API subscription.
     """)
     time_period = st.selectbox("Time period", CurrencyExchangeAPIRetriever.valid_periods)
     end_date = st.date_input("End date of timeseries",

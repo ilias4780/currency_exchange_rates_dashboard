@@ -31,4 +31,6 @@ streamlit run dashboard.py
 ![Latest Exchange Rates](snapshots/2.png)
 
 ![Exchange Rates Timeseries](snapshots/3.png)
+
+![Best Months to Trade](snapshots/4.png)
  
